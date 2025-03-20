@@ -1,0 +1,25 @@
+import BinarySearchTree from "./BinarySearchTree";
+
+let BST : BinarySearchTree = new BinarySearchTree()
+BST.insert(100);
+BST.insert(50)
+BST.insert(75)
+BST.insert(25)
+BST.insert(200)
+BST.insert(150)
+BST.insert(250)
+BST.insert(275)
+// BST.remove(150)
+// BST.remove(50)
+// BST.remove(250)
+// BST.remove(25)
+// BST.remove(100)
+
+console.log("BST HEIGHT====>",BST.height())
+console.log("BST isBalanced====>",BST.isBalanced())
+console.log("BST inOrder====>",BST.inOrder())
+console.log("BST preOrder====>",BST.preOrder())
+console.log("BST postOrder====>",BST.postOrder())
+console.log("BST DFS_DP_PREORDER====>",BST.DFS_DP_PREORDER())
+console.log("BST DFS_DP_INORDER====>",BST.DFS_DP_INORDER())
+console.log("BST DFS_DP_POSTORDER====>",BST.DFS_DP_POSTORDER())
