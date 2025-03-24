@@ -30,7 +30,6 @@ class BinarySearchTree {
                 if(!curr.left)
                 {
                     curr.left = node;
-                    console.log("node===>",node)
 
                     return node;
                 }else {
@@ -204,4 +203,9 @@ class BinarySearchTree {
 
 }
 
+
+
+
+
 export default BinarySearchTree;
+
